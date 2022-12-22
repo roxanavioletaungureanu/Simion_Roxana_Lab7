@@ -8,7 +8,7 @@
 
     <TabBar>
         <ShellContent
- Title="Baby delivery Lists"
+ Title="Welcome"
  ContentTemplate="{DataTemplate local:MainPage}"
  />
         <ShellContent
@@ -18,8 +18,8 @@
     </TabBar>
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+       Title="My Shopping Lists"
+ ContentTemplate="{DataTemplate local:ListEntryPage}"
+ />
 
 </Shell>
